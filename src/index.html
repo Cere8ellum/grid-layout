@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html', {
+"title":"Главная"
+})
+
+<body>
+  @@include('html/header.html', {})
+  @@include('html/aside.html', {})
+  <main class="main container">
+    <h1>Main</h1>
+    <article>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, praesentium, nesciunt quod explicabo at voluptate consectetur ipsum architecto voluptatum velit tenetur voluptas libero. Consequuntur dolorem, odit officiis ad ex provident eius magnam fugiat vitae aut labore tempore doloremque veniam neque quis, exercitationem, magni omnis fugit harum aperiam nemo illo maxime. Iste temporibus, nostrum expedita repellendus corporis accusantium deserunt molestiae voluptatibus. Culpa similique excepturi, voluptatem illum repellat dolor debitis rerum accusantium impedit unde asperiores minus neque officiis natus voluptatum ipsa, non, quaerat beatae corrupti odit! At eos quia libero, perspiciatis repudiandae porro, alias recusandae ullam iure dolores nostrum voluptatum qui ea!
+    </article>
+
+    <section class="goods">
+      
+      <div class="goods-item">
+        <h3 class="goods-item__title">Laptop</h3>
+        <img src="/img/products/laptop.jpg" class="goods-item__img" />
+        <span class="goods-item__price">$2500</span>
+        <button class="goods-item__btn" value="">Add to cart</button>
+      </div>
+
+      <div class="goods-item">
+        <h3 class="goods-item__title">Mouse</h3>
+        <img src="/img/products/mouse.jpg" class="goods-item__img" />
+        <span class="goods-item__price">$100</span>
+        <button class="goods-item__btn" value="">Add to cart</button>
+      </div>
+
+      <div class="goods-item">
+        <h3 class="goods-item__title">Keyboard</h3>
+        <img src="/img/products/keyboard.jpg" class="goods-item__img" />
+        <span class="goods-item__price">$250</span>
+        <button class="goods-item__btn" value="">Add to cart</button>
+      </div>
+
+      <div class="goods-item">
+        <h3 class="goods-item__title">Netbook</h3>
+        <img src="/img/products/netbook.jpg" class="goods-item__img" />
+        <span class="goods-item__price">$800</span>
+        <button class="goods-item__btn" value="">Add to cart</button>
+      </div>
+      
+    </section>
+  </main>
+  @@include('html/footer.html', {})
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>
